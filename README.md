@@ -54,14 +54,14 @@ Attendance is stored in attendance.csv in the following format:
 
 Name,Date,Time
 Jamal,2026-04-03,10:15:23
-How It Works
-Captures frames from webcam using OpenCV
-Saves frame temporarily for processing
-Uses DeepFace to compare detected face with images in known_faces/
-Extracts identity from matched image
-Records attendance with timestamp
-Prevents duplicate entries using an in-memory set
-Requirements
-Python 3.7 or higher
-Working webcam
+How It Works<br>
+Captures frames from webcam using OpenCV<br>
+Saves frame temporarily for processing<br>
+Uses DeepFace to compare detected face with images in known_faces/<br>
+Extracts identity from matched image<br>
+Records attendance with timestamp<br>
+Prevents duplicate entries using an in-memory set<br1>
+## Requirements<br>
+Python 3.7 or higher<br>
+Working webcam<br>
 Proper lighting conditions for accurate detection

@@ -1,27 +1,27 @@
-Ai based Attendance System
+## Ai based Attendance System
 
 A real-time face recognition-based attendance system built using Python, OpenCV, and DeepFace.
 The system detects faces through a webcam, matches them with stored images, and records attendance with timestamps.
 
-Overview
+## Overview
 
 This project automates attendance marking by using facial recognition instead of manual entry. It leverages DeepFace's pre-trained ArcFace model for accurate face matching and OpenCV for real-time video processing.
 
-Features
+## Features
 Real-time face detection using webcam
 Face recognition using DeepFace (ArcFace model)
 Automatic attendance logging with date and time
 Duplicate attendance prevention within a session
 Displays recognized names on the video feed
 Handles unknown faces gracefully
-Tech Stack
+## Tech Stack
 Python
 OpenCV
 DeepFace
 CSV (for data storage)
 OS & Datetime modules
-Project Structure
-
+## Project Structure
+```
 face-recognition-attendance/
 │
 ├── known_faces/            # Directory containing known face images
@@ -31,8 +31,8 @@ face-recognition-attendance/
 ├── attendance.csv          # Attendance records (auto-generated)
 ├── main.py                 # Main application script
 └── README.md
-
-Installation
+```
+## Installation
 Clone the repository:
 git clone https://github.com/khanjamal59/ai-based-attendance-system.git
 cd face-recognition-attendance
@@ -41,14 +41,14 @@ pip install opencv-python deepface
 Usage
 Add images of known individuals to the known_faces/ directory
 File names should represent the person's name (e.g., john.jpg)
-Run the application:
-python main.py
+## Run the application:
+python main.py <br>
 The system will:
 Start the webcam
 Detect and recognize faces
 Mark attendance automatically
 Press Q to exit the application
-Attendance Format
+## Attendance Format
 
 Attendance is stored in attendance.csv in the following format:
 
